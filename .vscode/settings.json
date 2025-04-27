@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "onWindowChange",
+    "npm.enableRunFromFolder": true,
+    "npm.packageManager": "npm",
+    "git.autoStash": true,
+    "editor.minimap.enabled": true,
+    "files.autoGuessEncoding": true
+}
