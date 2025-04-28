@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Data Engineer",
-  avatar: "/home/devr/Github/website/public/images/avatar.jpg",
+  avatar: "/images/avatar.jpg",
   email: "devraman1721@gmail.com",
   location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: [], // optional: Leave the array empty if you don't want to display languages
@@ -30,12 +30,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/devarya-raman",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/devarya-raman-a43863129/",
   },
   {
     name: "X",
@@ -90,9 +90,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I'm Devarya, a data engineer with a passion for transforming complex challenges into simple,
+      elegant design solutions. My work spans digital interfaces, interactive experiences, and the
+      convergence of design and technology.
       </>
     ),
   },
@@ -101,9 +101,9 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
+        company: "Centene Corporation",
         timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        role: "Application Developer II",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
@@ -147,12 +147,13 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Univerity of Texas at Dallas",
+        timeframe: "2021 - 2023",
+        description: <>M.S. Business Analytics - Data Science</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Austin College (2018-2021)",
+        description: <>Major: Biology</>,
       },
     ],
   },
@@ -161,7 +162,7 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Snowflake",
         description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
@@ -180,7 +181,7 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
+        title: "Databricks",
         description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
